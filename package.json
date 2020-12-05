@@ -1,0 +1,17 @@
+{
+  "name": "tbmunbot",
+  "version": "1.0.0",
+  "description": "A discord bot that moderates Model United Nations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "ilenush#3000",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "nedb": "^1.8.0",
+    "string-hash": "^1.1.3"
+  }
+}
