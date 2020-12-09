@@ -160,7 +160,7 @@ function cleanDatabase() {
 
 client.on("ready", () => {
 	console.log(`Bot logged in as ${client.user.tag}!`);
-	client.user.setActivity(`TBMUN 101`, {
+	client.user.setActivity(`Closing Ceremony`, {
 		type: "WATCHING",
 	});
 
