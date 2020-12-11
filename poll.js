@@ -64,7 +64,7 @@ class Poll {
 			return;
 		}
 		if (message.embeds.length < 1) {
-			console.error("The poll message ha no embeds.");
+			console.error("The poll message has no embeds.");
 			return;
 		}
 		
@@ -91,7 +91,7 @@ class Poll {
 				this.results[i] = reactionCollection.get(this.emojis[i]).count - 1;
 			}
 		} else {
-			throw new Error("Poll not ended");
+			throw new Error("Poll has not ended");
 		}
 	}
 
