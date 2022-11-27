@@ -1,13 +1,13 @@
 {
-  "name": "tbmunbot",
+  "name": "munbot",
   "version": "1.0.0",
-  "description": "A discord bot that moderates Model United Nations",
+  "description": "A discord bot that help moderate the conference by responding to the commands sent by the chairs and the delegates. The bot can help the chairs recognize the motions proposed by the delegates, and arrange the general speakers’ list.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "ilenush#3000",
+  "author": "ilenush#9999",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.4.2",
